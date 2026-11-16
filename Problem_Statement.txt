@@ -1,0 +1,78 @@
+
+# Week_7-Day 1 – Git & GitHub Practical Assignment
+
+### Project: Employee Leave Management System
+
+Develop a simple **Employee Leave Management System** using Python and manage the complete project using Git and GitHub.
+
+### Requirements
+
+1. Create the Employee Leave Management System project on your personal laptop.
+
+2. Create a suitable project structure containing the Python source file, `README.md`, `requirements.txt`, and a data folder.
+
+3. Initialize the project as a Git repository.
+
+4. Check the status of the repository and identify untracked files.
+
+5. Add the required project files to the Git staging area.
+
+6. Create the **first meaningful commit** for the project.
+
+7. View the commit history and verify that the first version has been recorded.
+
+8. Modify the application by adding a new requirement such as **manager approval for employees taking more than 5 leave days**.
+
+9. Check and identify the changes made to the project before committing them.
+
+10. Create a second meaningful commit and verify the updated commit history.
+
+11. Create a GitHub repository with the same project name and connect the local repository to the GitHub repository.
+
+12. Push the local project to GitHub and verify that all required files and commits are available in the remote repository.
+
+13. Create a `.gitignore` file and ensure that files such as Python cache files, virtual environments, `.env` files, and IDE-specific files are not tracked.
+
+14. Make another meaningful change to the project, commit it, and push the updated version to GitHub.
+
+15. Clone your GitHub repository into another folder on your laptop. Make a change in the original project, push the change to GitHub, and use the cloned repository to obtain the latest version.
+
+---
+
+## Student Submission
+
+Students should submit:
+
+**1. GitHub Repository Link**
+
+```text
+https://github.com/<username>/employee-leave-management-system
+```
+
+**2. Minimum 4 meaningful commits**
+
+For example:
+
+```text
+Create employee leave management system
+Add manager approval feature
+Add gitignore configuration
+Update leave management documentation
+```
+
+**3. Screenshots**
+
+Submit screenshots showing:
+
+- Local Git repository
+- Commit history
+- GitHub repository
+- `.gitignore`
+- Successful push
+- Cloned repository
+- Successful update/pull
+
+### Important instruction to students
+
+> **Do not submit only screenshots. You should be able to demonstrate the complete Git workflow on your laptop during the practical session.**
+

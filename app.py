@@ -19,12 +19,13 @@ def add_employee():
 
 def apply_leave():
     employee_id = input("Enter employee ID: ")
-    reason = input("Enter leave reason (e.g., sick, vacation): ")
+    leave_type = input("Enter leave type (e.g., sick, vacation): ")
     leave_days = int(input("Enter number of leave days: "))
+    reason = input("Enter leave reason: ")
 
-    employee_exists = any(emp["id"] == employee_id for emp in employees)
+    employee = next((emp for emp in employees if emp["id"] == employee_id), None)
 
-    if not employee_exists:
+    if not employee:
         print(f"Employee ID {employee_id} not found. Please add the employee first.")
         return
 
@@ -33,6 +34,8 @@ def apply_leave():
         status = "Pending Manager Approval"
     leave_request = {
         "employee_id": employee_id,
+        "employee_name": employee["name"],
+        "leave_type": leave_type,
         "reason": reason,
         "leave_days": leave_days,
         "status": status
@@ -40,7 +43,7 @@ def apply_leave():
 
     leave_requests.append(leave_request)
 
-    print(f"Leave request for {employee_id} submitted successfully.")
+    print(f"Leave request for {employee['name']} submitted successfully.")
 
 
 def view_employees():

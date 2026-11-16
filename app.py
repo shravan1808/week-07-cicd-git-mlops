@@ -32,6 +32,9 @@ def apply_leave():
     employee_id = input("Enter employee ID: ")
     leave_type = input("Enter leave type (e.g., sick, vacation): ")
     leave_days = int(input("Enter number of leave days: "))
+    if leave_days <= 0:
+        print("Leave days must be greater than 0.")
+        return
     reason = input("Enter leave reason: ")
 
     employee = next((emp for emp in employees if emp["id"] == employee_id), None)

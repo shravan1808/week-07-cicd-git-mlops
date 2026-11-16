@@ -54,3 +54,7 @@ This project demonstrates the basic Git and GitHub workflow:
 ## Project Status
 
 The basic Employee Leave Management System has been completed with Git and GitHub version control.
+
+## Development Workflow
+
+New features are developed in separate branches and integrated into the development branch after review.

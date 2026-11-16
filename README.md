@@ -50,3 +50,7 @@ This project demonstrates the basic Git and GitHub workflow:
 - Using `.gitignore` to exclude unnecessary files
 - Cloning a repository
 - Pulling the latest changes from GitHub
+
+## Project Status
+
+The basic Employee Leave Management System has been completed with Git and GitHub version control.

@@ -27,11 +27,15 @@ def apply_leave():
     if not employee_exists:
         print(f"Employee ID {employee_id} not found. Please add the employee first.")
         return
+
+    status = "Approved"
+    if leave_days > 5:
+        status = "Pending Manager Approval"
     leave_request = {
         "employee_id": employee_id,
         "reason": reason,
         "leave_days": leave_days,
-        "status": "Approved"
+        "status": status
     }
 
     leave_requests.append(leave_request)

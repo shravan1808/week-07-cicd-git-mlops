@@ -58,3 +58,9 @@ The basic Employee Leave Management System has been completed with Git and GitHu
 ## Development Workflow
 
 New features are developed in separate branches and integrated into the development branch after review.
+
+## Leave Policy
+
+Employees can apply for leave based on their available leave balance.
+Leave requests exceeding the configured approval limit require manager approval.
+

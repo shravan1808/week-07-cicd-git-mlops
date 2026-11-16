@@ -37,6 +37,16 @@ python app.py
 
 3. Follow the options displayed in the terminal.
 
-## Current Version
 
-The current version provides basic employee and leave management functionality.
+## Git Workflow Demonstrated
+
+This project demonstrates the basic Git and GitHub workflow:
+
+- Git repository initialization
+- Tracking project files
+- Meaningful commits
+- Git branches and remote repository connection
+- Pushing changes to GitHub
+- Using `.gitignore` to exclude unnecessary files
+- Cloning a repository
+- Pulling the latest changes from GitHub
